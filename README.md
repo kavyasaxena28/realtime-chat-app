@@ -1,42 +1,51 @@
-# ✨ Full Stack Realtime Chat App ✨
+# 💬 Realtime Chat Application
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A full-stack real-time chat application built using the MERN stack. The application enables users to communicate instantly through a modern and responsive interface.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+## Features
+- User Authentication
+- Real-time Messaging
+- Online/Offline Status
+- Responsive UI
+- Secure Backend APIs
 
-Highlights:
+## Tech Stack
+- Frontend: React.js, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Real-time Communication: Socket.IO
+- Authentication: JWT
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+## Getting Started
 
-### Setup .env file
-
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
-
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-
-NODE_ENV=development
+### Clone the repository
+```bash
+git clone https://github.com/kavyasaxena28/realtime-chat-app.git
 ```
 
-### Build the app
+### Install dependencies
 
-```shell
-npm run build
+Frontend
+```bash
+cd frontend
+npm install
+npm run dev
 ```
 
-### Start the app
-
-```shell
+Backend
+```bash
+cd backend
+npm install
 npm start
 ```
+
+## Future Improvements
+- Group Chat
+- Message Search
+- File Sharing
+- Voice Messages
+- Dark Mode
+- Push Notifications
+
+## Learning Note
+This repository is based on an open-source realtime chat application and is being extended with additional features, UI improvements, and backend enhancements as part of my learning and portfolio.
